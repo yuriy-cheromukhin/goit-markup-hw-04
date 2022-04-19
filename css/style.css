@@ -115,7 +115,7 @@ section {
   color: #000000;
 }
 .header-logo:focus {
-  outline: none;
+  /* outline: none; */
 }
 .header-link {
   font-weight: 500;
@@ -129,7 +129,7 @@ section {
 }
 .header-link:focus {
   color: var(--focus-font-color);
-  outline: none;
+  /* outline: none; */
 }
 .current {
   color: var(--focus-font-color);
@@ -146,7 +146,7 @@ section {
 .header-mail:hover,
 .header-mail:focus {
   color: var(--focus-font-color);
-  outline: none;
+  /* outline: none; */
 }
 .header-tel {
   font-weight: 500;
@@ -160,22 +160,12 @@ section {
 .header-tel:hover,
 .header-tel:focus {
   color: var(--focus-font-color);
-  outline: none;
+  /* outline: none; */
 }
-/* .header-adress-item {
-  display: flex;
-  align-items: center;
-} */
-/* .header-adress-item:hover,
-.header-adress-item:focus {
-  color: var(--focus-font-color);
-} */
+
 .header-adress-icon {
   margin-right: 10px;
   fill: currentColor;
-  /* display: inline-flex; */
-  /* justify-content: center; */
-  /* align-items: baseline; */
 }
 
 /* ----------HERO----------  */
